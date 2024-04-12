@@ -1,0 +1,592 @@
+:root {
+  --primary-pink: #fdf2e9;
+  --primary-orange: #cf711f;
+  --primary-body: #555;
+  --primary-green-btn: #94d82d;
+  --accent-green-btn: #51cf66;
+  --primary-yellow-btn: #ffd43b;
+  --primary-bg-form: #45260a;
+}
+body {
+  color: var(--primary-body);
+  line-height: 1;
+  font-family: sans-serif;
+  list-style-type: none;
+}
+/* header__start */
+.header {
+  padding-bottom: 8rem;
+  background-color: var(--primary-pink);
+}
+.header__intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3.5rem 0;
+}
+.header__logos {
+  max-width: 15rem;
+}
+.header__logo {
+  max-width: 100%;
+}
+.header__nav {
+}
+.menu {
+  display: none;
+}
+
+.fa.fa-bars {
+  font-size: 2.8rem;
+  cursor: pointer;
+}
+
+/* HERO section */
+.header__section {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 0;
+  gap: 3rem;
+}
+.section__hero {
+  flex-basis: 50%;
+}
+.hero__title {
+  color: #333;
+  font-size: 3.5rem;
+  text-align: center;
+}
+.hero__desc {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  padding: 2.1rem 0;
+}
+.hero__links {
+  display: flex;
+}
+.hero__link {
+  display: inline-block;
+  padding: 1.4rem 2rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+  border-radius: 0.6rem;
+  /* font-weight: ; */
+}
+.hero__btn-1 {
+  background-color: var(--primary-orange);
+  color: #fff;
+  margin-right: 1.4rem;
+}
+.hero__btn-2 {
+  color: inherit;
+  font-weight: bold;
+  background-color: #ffffff;
+}
+/* costumers */
+.hero__personel {
+  display: flex;
+  gap: 2rem;
+  /* flex-wrap: wrap; */
+  align-items: center;
+  justify-content: flex-start;
+  padding: 2.5rem 0 0rem;
+}
+.hero__workers--image {
+  max-width: 20rem;
+  display: flex;
+
+  margin-right: 2.2rem;
+}
+.woker {
+  width: 4.8rem;
+  border-radius: 50%;
+  border: 0.4rem solid #fff;
+  height: 4.8rem;
+  margin-right: -1.2rem;
+}
+.hero__personel--title {
+  font-size: 1.5rem;
+  text-align: center;
+}
+.hero__personel--sub {
+  color: #555;
+  font-size: 1.9rem;
+  font-weight: bolder;
+}
+.hero__personel--sub span {
+  color: var(--primary-orange);
+}
+/* section gallery */
+.header_gallery {
+  flex-basis: 50%;
+}
+.header__image {
+  width: 100%;
+}
+/* companies */
+.company {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: var(--primary-body);
+  align-items: center;
+}
+.companies__intro {
+  font-size: 1.7rem;
+  padding: 2rem 0 1rem;
+  margin: 2rem 0 0;
+  text-align: center;
+  color: #918e8e;
+  font-weight: bold;
+}
+.company__logos {
+  color: #333;
+  padding: 0 2rem;
+  flex-grow: 1;
+  max-width: 40%;
+}
+.company__logo {
+  width: 100%;
+  object-fit: contain;
+  filter: brightness(0);
+  opacity: 50%;
+  max-height: 7rem;
+  padding: 1.9rem 0;
+}
+.advice__tips {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem 0;
+  align-items: center;
+}
+.advice__holder {
+  padding-top: 3rem;
+}
+.advice__title {
+  font-size: 3.4rem;
+}
+.advice__sub {
+  color: var(--primary-orange);
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-bottom: 1.6rem;
+}
+.tips__wrapper {
+  padding: 2rem 0;
+}
+.tips__number {
+  font-size: 8rem;
+  color: rgb(85, 85, 85, 0.3);
+}
+.tips__heading {
+  font-size: 2.2rem;
+  padding: 2rem 0;
+}
+.tips__desc {
+  font-size: 1.5rem;
+  line-height: 1.6;
+}
+
+.tips__image {
+  max-width: 100%;
+  height: 37.9rem;
+}
+/* meals food */
+.foods__sub {
+  font-size: 1.4rem;
+  color: var(--primary-orange);
+}
+.foods__title {
+  font-size: 1.5rem;
+}
+.foods__sub,
+.foods__title {
+  margin: 1.8rem 1.3rem;
+}
+.meals {
+  display: flex;
+  flex-direction: column;
+}
+.meals__item {
+  margin: 1.8rem 1.3rem;
+  border-radius: 0.9rem;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgb(51, 51, 51, 0.3);
+}
+.meals__image {
+  width: 100%;
+  height: 30rem;
+  margin-bottom: 1.4rem;
+}
+.meals__wrapper {
+  padding: 0 3rem;
+}
+.meals__btn {
+  display: inline-block;
+  margin-right: 0.3rem;
+  border-radius: 0.8rem;
+  padding: 0.4rem 0.4rem 0.3rem;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #333;
+  background-color: var(--accent-green-btn);
+}
+.meals__btn-2 {
+  background-color: var(--primary-green-btn);
+}
+.meals__btn-2 {
+  background-color: var(--primary-yellow-btn);
+}
+.meals__intro {
+  font-size: 2.3rem;
+  padding: 1.5rem 0 1rem;
+}
+.meals__menu {
+  list-style-type: none;
+  color: #444;
+  font-size: 1.5rem;
+  padding: 0rem 0 3rem;
+}
+.meals__list {
+  padding: 1rem 0;
+  display: flex;
+  gap: 2rem;
+}
+/* todo list */
+.todo {
+  padding: 1.5rem 1.5rem;
+  box-shadow: none;
+  text-align: center;
+}
+.check__todo-list {
+  font-size: 2.4rem;
+}
+.todo__menu {
+  padding: 1.5rem;
+  list-style-type: none;
+}
+.todo__items {
+  padding: 2rem 0;
+  display: flex;
+
+  gap: 1.4rem;
+  font-size: 1.5rem;
+}
+.fa.fa-check {
+  color: var(--primary-orange);
+}
+.todo__link {
+  color: var(--primary-orange);
+  font-size: 1.4rem;
+}
+/* experience */
+.container__fluid {
+  padding: 3rem 0;
+  background-color: var(--primary-pink);
+}
+.experience {
+  padding-bottom: 4rem;
+}
+.experience__layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 2rem;
+}
+.experience__interview {
+}
+.experience__title--holder {
+  margin: 2rem 0;
+}
+.experience__title {
+  color: var(--primary-orange);
+  margin-bottom: 1.6rem;
+}
+.experience__sub {
+  font-size: 3.6rem;
+  color: #333;
+  font-weight: bold;
+}
+.ui__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3.5rem;
+  padding: 1.5rem 0;
+}
+.ui__boxes {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.experience__ui {
+}
+.ui__person {
+  border-radius: 50%;
+  width: 7rem;
+}
+.ui__desc {
+  line-height: 1.5;
+  font-size: 1.7rem;
+}
+.ui__author {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+/* gallery */
+.experience__galleries {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+.experience__gallery {
+  width: 100%;
+}
+/* price section */
+.price {
+  margin: 2.5rem 0;
+}
+.price__title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: var(--primary-orange);
+  padding-top: 8rem;
+  margin-bottom: 1rem;
+}
+.price__sub {
+  color: #333;
+  font-size: 3.3rem;
+  padding-bottom: 4rem;
+}
+.price__cards {
+  padding: 1.5rem 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem 4rem;
+  margin: 1rem 0;
+}
+.price__card {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+  gap: 1.5rem;
+  border: 2px solid #f1ebec;
+  border-radius: 0.6rem;
+  /* padding: 4rem 0;
+  margin: 1rem 0; */
+}
+.card__header {
+  text-align: center;
+  padding: 4rem 0;
+}
+.card__intro {
+  font-size: 1.4rem;
+  color: var(--primary-orange);
+  font-weight: 900;
+}
+.card__value {
+  font-size: 4.8rem;
+  padding: 1.5rem 0;
+  color: rgb(0, 0, 0, 0.9);
+}
+.card__dollar {
+  font-size: 3.5rem;
+}
+.card__subscribe--info {
+  font-size: 1.5rem;
+}
+
+.price__menu {
+  list-style-type: none;
+  padding-bottom: 2rem;
+}
+.price__list {
+  font-size: 1.6rem;
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 1.6rem;
+}
+
+.price__btn {
+  display: block;
+  text-decoration: none;
+  font-size: 2rem;
+  margin-inline: auto;
+  padding: 1.2rem 2.2rem;
+  background-color: var(--primary-orange);
+  color: #fff;
+  border-radius: 0.4rem;
+  width: max-content;
+}
+/* second card */
+.price__card:nth-child(2) {
+  background-color: var(--primary-pink);
+  position: relative;
+  overflow: hidden;
+}
+.card__pseudo:after {
+  content: "Best Value";
+  position: absolute;
+  top: 22.5px;
+  right: -3.4rem;
+  width: 13.4rem;
+  height: 2rem;
+  background-color: yellow;
+  font-size: 1.6rem;
+  color: #333;
+  font-weight: bold;
+  text-align: center;
+  transform: rotate(45deg);
+}
+.price__include {
+  font-size: 1.7rem;
+  text-align: center;
+}
+/* feature */
+.feature {
+  padding: 2rem 0;
+}
+.feature__items {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3rem 1rem;
+}
+.feature__item {
+}
+.feature-icon {
+  width: 4.2rem;
+  height: 4.2rem;
+  background-color: var(--primary-pink);
+  color: var(--primary-orange);
+  border-radius: 50%;
+}
+.feature__title {
+  font-size: 2.5rem;
+  color: #333;
+  padding: 0.8rem 0 2rem;
+}
+.feature__desc {
+  font-size: 1.5rem;
+}
+/* subscibe section */
+.subscribe {
+  padding: 3rem 0;
+}
+.subscribe__holder {
+  display: grid;
+  grid-template-columns: 1fr;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgb(0, 0, 0, 0.8);
+}
+.subscribe__images {
+  width: 100%;
+  height: 300px;
+  background-image: url("../image/eating.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 10%;
+}
+.subscribe__inform {
+  background-color: #e67e22;
+  padding: 1.5rem;
+  color: #45260a;
+  height: 500px;
+}
+.subscribe__title {
+  font-size: 2.7rem;
+
+  padding: 2rem 0;
+}
+.subscribe__desc {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+.subscibe__inputs {
+  padding: 3rem 1.5rem;
+}
+form {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+label[for^="name"],
+label[for^="email"],
+label[for^="select"] {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  padding: 1.5rem 0 0.4rem;
+  font-weight: bold;
+}
+input[id^="name"],
+input[id^="email"],
+select {
+  padding: 0.8rem 1.3rem;
+  width: 100%;
+  border-radius: 0.5rem;
+  border: none;
+  font-size: 1.5rem;
+  outline: none;
+}
+.subscribe__btn {
+  text-decoration: none;
+  background-color: #45260a;
+  padding: 1.2rem 2.2rem;
+  display: block;
+  color: #fff;
+  font-size: 1.8rem;
+  margin-top: 1.7rem;
+  text-align: center;
+  border-radius: 0.7rem;
+}
+/* footer part */
+.footer {
+  padding: 5rem 0;
+}
+.footer__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  border-top: 1px solid #555;
+  padding-top: 7rem;
+}
+.footer__company {
+  order: 3;
+}
+.footer__part:nth-of-type(2) {
+  order: 2;
+}
+.footer__company img {
+  width: 14rem;
+  margin-bottom: 1.6rem;
+}
+
+.footer__copyright {
+  font-size: 1.3rem;
+  line-height: 1.6;
+}
+.footer__part {
+}
+.footer__header {
+  margin-bottom: 1.8rem;
+  font-size: 1.8rem;
+}
+.footer__address {
+  font-size: 1.3rem;
+}
+.footer__number {
+  font-size: 1.4rem;
+  margin: 1.2rem 0;
+}
+.footer__email {
+  font-size: 1.4rem;
+  margin: 1.4rem 0;
+}
+.footer__menu {
+  list-style-type: none;
+  font-size: 1.9rem;
+}
+.footer__itmes {
+  font-size: 1.4rem;
+  margin: 0.9rem 0;
+}
+
+/* end of project <3 */
